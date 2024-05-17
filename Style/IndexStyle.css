@@ -261,24 +261,29 @@ main > div button{
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    flex-grow: 1;
+    flex: 1;
+    
 
 
 
 }
 .card{
+   
     width: 30.3rem;
-    height: 40rem;
+    /* height: 40rem; */
     margin-bottom: 2rem;
-    border: 1px solid red;
-
+    flex: 1 1 calc(33.333% - 2rem);
+    margin-inline: 1rem;
+    box-shadow: 3px 4px 10px -3px rgba(0,0,0,0.18);
 
 }
 
 .img{
+
     width: 30.2rem;
     height: 30.2rem;
     object-fit: contain;
+    margin-bottom: 2rem;
 }
 
 
@@ -383,9 +388,6 @@ h5{
         flex-wrap: wrap;
         flex-grow: 1;
         
-    }
-    .category > div:last-child > div{
-        border:solid crimson;
     }
     .productInfo ul{
         display: none;
