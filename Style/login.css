@@ -1,0 +1,72 @@
+
+.SingleLogin{
+    padding-inline:5rem ;
+    max-width: 130rem;
+    height: 78rem;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+
+.SingleLogin{
+    background-image: url(/img/Side\ Image.png);
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+    width: 100%;
+
+
+}
+
+
+.login h1{
+    font-size: 3.6rem;
+    margin-bottom: 2.4rem;
+
+}
+.login  h3{
+    font-size: 1.6rem;
+    margin-bottom: 5.8rem;
+    
+}
+form .form-group{
+    display: flex;
+    flex-direction: column;
+    margin-block: 3rem;
+    margin-bottom: 3rem;  
+}
+form label{
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: gray;
+    margin-bottom: 1rem;
+}
+form input{
+    border: none;
+    border-bottom: 0.1rem solid gray;
+    outline: none;
+    padding: 0.2rem 1rem ;
+    background-color: transparent;
+}
+
+form .submit button{
+    border: none;
+    border-radius: 0.4rem;
+    font-size:1.6rem ;
+    color: #fff;
+    padding: 1.6rem 4rem;
+    background-color: #DB4444;
+
+}
+
+form .submit p{
+    color: #DB4444;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+
+
+
